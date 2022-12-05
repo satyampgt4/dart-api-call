@@ -12,7 +12,5 @@ void main() {
 
   request.onLoad.listen(
       (event) => print('Request complete ${event.target?.reponseText}'));
-  request.send();
-
   request.send(data);
 }
